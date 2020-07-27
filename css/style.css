@@ -58,6 +58,8 @@ body {
 /*оформлення логотипа*/
 
 .page-header {
+  width: 100%;
+  background-color: var(--primary-white-color);
   border-bottom: 1px solid #ececec;
 }
 
@@ -733,6 +735,8 @@ body {
 }
 
 .work-list-item {
+  position: relative;
+
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
@@ -825,7 +829,16 @@ body {
 }
 
 .work-discription {
+  position: absolute;
+  width: 100%;
+
+  right: 0;
+  top: 0;
+  width: 100%;
+
   margin-bottom: 0px;
+  padding-top: 66px;
+  padding-bottom: 60px;
   padding-left: 24px;
   padding-right: 24px;
   font-family: var(--font-family-main);
@@ -834,5 +847,14 @@ body {
   font-size: 18px;
   line-height: 1.55em;
   letter-spacing: 0.03em;
-  color: var(--primary-title-color); /*потрбно замінити на білий*/
+  color: var(--primary-white-color);
+  background: rgba(33, 150, 243, 0.9);
+  opacity: 0;
+}
+
+.work-discription:hover {
+  opacity: 1;
+
+  /*transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);*/
 }
