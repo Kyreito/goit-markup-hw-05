@@ -39,6 +39,10 @@ body {
   font-family: var(--font-family-main), var(--font-family-secondary);
 }
 
+img {
+  display: block;
+}
+
 .container {
   min-width: 1200px;
   width: 100%;
@@ -854,6 +858,7 @@ body {
 
 .work-discription:hover {
   opacity: 1;
+  display: block;
 
   /*transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);*/
