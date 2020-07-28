@@ -850,6 +850,7 @@ img {
 
 .work-list-item {
   position: relative;
+  /*overflow: hidden;*/
 
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
@@ -858,6 +859,5 @@ img {
 }
 .work-discription:hover {
   top: 0;
-
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
