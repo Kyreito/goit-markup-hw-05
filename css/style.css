@@ -828,7 +828,7 @@ img {
   top: 100%;
   right: 0;
   width: 100%;
-  height: 100%;
+  height: 294px;
   transition-property: top;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -862,10 +862,6 @@ img {
 .work-list a:hover .work-discription {
   top: 0;
 }
-
-/*.work-discription:hover {
-  top: 0;
-}*/
 
 .overlay {
   position: relative;
