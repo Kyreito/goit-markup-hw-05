@@ -83,7 +83,7 @@ img {
   color: var(--accent-color);
 }
 
-/*оформлення кольору меню*/
+/*оформлення меню*/
 
 .main-nav {
   display: flex;
@@ -225,13 +225,6 @@ img {
 
   background-repeat: no-repeat;
 }
-
-/*
-тут був попередній фон
-.wprapper-transparent {
-  background-color: rgba(47, 48, 58, 0.8);
-  height: 110%;
-}*/
 
 .hero-modal-btn {
   display: inline-block;
